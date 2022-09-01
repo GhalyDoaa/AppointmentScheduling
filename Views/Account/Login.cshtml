@@ -1,10 +1,19 @@
 ﻿@model AppointmentScheduling.Models.ViewModels.LoginViewModel
+<br>
+ 
+<div class="text-center">
+    <h1 class="display-4" style="text-decoration: underline wavy black 2px;"> Appointment Scheduler</h1>
 
-<h2>Sign In</h2>
+</div>
+<br>
+<br>
+<br>
 <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-8 mx-auto">
+
+        
         <section id="loginForm">
-            <form id="account" method="post" asp-action="Login" asp-controller="Account">
+            <form id="account" method="post" asp-action="Login"   asp-controller="Account">
                 <h4>Use your registered email id and password to login.</h4>
                 <hr />
                 <div asp-validation-summary="All" class="text-danger"></div>
