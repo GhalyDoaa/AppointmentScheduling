@@ -36,7 +36,7 @@ function InitializeCalendar() {
                         url: routeURL + '/api/Appointment/GetCalendarData?doctorId=' + $("#doctorId").val(),
                         type: 'GET',
                         dataType: 'JSON',
-                        success: function (response) {
+                        success: function (response) { //fill calnder with doctor appointments
                             var events = [];
                             if (response.status === 1) {
                                 $.each(response.dataenum, function (i, data) {
@@ -45,7 +45,7 @@ function InitializeCalendar() {
                                         description: data.description,
                                         start: data.startDate,
                                         end: data.endDate,
-                                        backgroundColor: data.isDoctorApproved ? "#28a745" : "#dc3545",
+                                        backgroundColor: data.isDoctorApproved ? "#44b919" : "#eb2323ed",
                                         borderColor: "#162466",
                                         textColor: "white",
                                         id: data.id
