@@ -9,7 +9,7 @@ Asp.net Core 5
 Js
 
 ###  Create account on https://ethereal.email/ to test the mail service or use mailJet (best practice)
-
+### take a look at DbInitializer.cs for sample login data
 ### 1- Admin arrange appointment between Drs/patients
 ![alt text](https://github.com/GhalyDoaa/AppointmentScheduling/blob/master/Screenshot%20(16).png?raw=true)
 
