@@ -8,7 +8,7 @@ Bootstrap
 Asp.net Core 5
 Js
 
-## Create account on https://ethereal.email/ to test the mail service or use mailJet 
+###  Create account on https://ethereal.email/ to test the mail service or use mailJet (best practice)
 
 ### 1- Admin arrange appointment between Drs/patients
 ![alt text](https://github.com/GhalyDoaa/AppointmentScheduling/blob/master/Screenshot%20(16).png?raw=true)
